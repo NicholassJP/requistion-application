@@ -72,6 +72,10 @@ h5 {
   background: #00d27d;
 }
 
+.par{
+  background: #FFB800;
+}
+
 @media only screen and (max-width: 600px) {
   .col-sm {
     align-items: center;
