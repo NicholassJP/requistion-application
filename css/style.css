@@ -1,6 +1,6 @@
 body {
   background: rgb(241 241 241 / 80%);
-  background-image: url("background.png");
+  background-image: url("/background.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
