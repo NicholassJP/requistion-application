@@ -94,6 +94,10 @@ h5 {
   background: #ffb800;
 }
 
+.margin-footer {
+  margin-left: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .col-sm {
     align-items: center;
@@ -101,5 +105,10 @@ h5 {
   }
   .logout {
     float: left;
+  }
+  .margin-footer {
+    margin-left: -px;
+    text-align: center;
+    color: black;
   }
 }
