@@ -29,14 +29,14 @@
     <title>LOGIN REQUISTION APPLICATION</title>
   </head>
   <body>
-    <div class="row row-cols-2 text-center">
-      <div class="col-sm-8 mt-5">
+    <div class="d-flex flex-row text-center">
+      <div class="col-sm-7 mt-5">
         <img class="center" src="img/logo.png" alt="" />
         <h1>REQUISTION APPLICATION</h1>
         <h5>Sistem Permintaan Barang</h5>
 
         <!-- Form -->
-        <div class="form-group w-25 fc mt-5">
+        <div class="form-group width fc mt-5">
           <input
             type="email"
             class="form-control text-center"
@@ -45,48 +45,35 @@
             placeholder="Masukan NIK"
           />
         </div>
-        <div class="form-group w-25 fc">
+        <div class="form-group fc width">
           <input
             type="password"
             class="form-control text-center"
-            id="exampleInputPassword1"
+            id=""
             placeholder="Masukan PIN"
           />
         </div>
         <div class="text-center mt-4">
           <button class="btn btn-warning">Reset PIN</button>
-          <button class="btn btn-primary no-border">Login</button>
+          <a href="dashboard.html" class="btn btn-primary no-border">Login</a>
         </div>
       </div>
 
-      <!-- Kanan -->
-      <div class="col-sm-4 md">
+      <!-- Image Carousel -->
+      <div class="col-sm-5 md none">
         <div class="container-1">
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-ride="carousel"
-          >
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner container-1">
               <div class="carousel-item active">
-                <img
-                  class="d-block float-right"
-                  src="/img/background_login2.png"
-                  alt="First slide"
-                />
+                <img src="img/background_login3.png" class="d-block w-100 image-slide img-fluid" alt="...">
               </div>
               <div class="carousel-item">
-                <img
-                  class="d-block float-right"
-                  src="/img/background_login3.png"
-                  alt="Second slide"
-                />
+                <img src="img/background_login2.png" class="d-block w-100 image-slide" alt="...">
               </div>
               <div class="carousel-item">
-                <img class="d-block float-right" src="/img/background_login1.png" alt="Third slide" />
+                <img src="img/background_login1.png" class="d-block w-100 image-slide" alt="...">
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
