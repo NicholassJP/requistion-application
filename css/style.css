@@ -1,6 +1,6 @@
 body {
   background: rgb(241 241 241 / 80%);
-  background-image: url("/img/main_background.png");
+  background-image: url("https://raw.githubusercontent.com/NicholassJP/requistion-application/main/img/main_background.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
