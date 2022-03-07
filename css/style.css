@@ -59,6 +59,10 @@ h5 {
   border: 0px;
 }
 
+.width-card {
+  width: 192px;
+}
+
 .white {
   color: white;
 }
@@ -110,5 +114,12 @@ h5 {
     margin-left: -px;
     text-align: center;
     color: black;
+  }
+
+  .width-card {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
