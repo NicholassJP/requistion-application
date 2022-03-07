@@ -47,9 +47,8 @@ h5 {
 }
 
 .image-slide {
-  height: 1006.5px;
+  height: 100vh;
   width: max-content;
-  background-size: contain;
 }
 
 .nopadding {
@@ -59,36 +58,12 @@ h5 {
 
 .container-1 {
   width: 100%;
-  height: 1006.5px;
+  height: 100vh;
   background-color: #fff;
   border-radius: 100px 0px 0px 100px;
 }
 
 @media only screen and (max-width: 600px) {
-  .none {
-    display: none;
-  }
-
-  .text-center {
-    align-items: center;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  .image-slide {
-    height: 920px;
-    width: max-content;
-  }
-
-  .container-1 {
-    width: 100%;
-    height: 920px;
-    background-color: #fff;
-    border-radius: 100px 0px 0px 100px;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
   .none {
     display: none;
   }
