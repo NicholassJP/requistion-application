@@ -22,6 +22,27 @@ h1 {
   text-shadow: 0px 4px 1px rgba(126, 0, 0, 0.85);
 }
 
+.card:hover {
+  background-color: rgba(18, 102, 241, 0.5);
+  color: white;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+.card:hover h5 {
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
 h5 {
   color: #0e5589;
   font-weight: 700;
@@ -112,9 +133,9 @@ h4 {
     align-items: center;
     text-align: center;
   }
+
   .logout {
     float: left;
-    right: 50%;
   }
 
   .margin-footer {
@@ -136,9 +157,6 @@ h4 {
     text-align: center;
     margin-left: -0px;
   }
-}
-
-@media only screen and (max-width: 544px) {
 }
 
 @media only screen and (max-width: 1400px) {
